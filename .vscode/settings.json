@@ -1,0 +1,7 @@
+{
+    "existing.setting.here": true,
+    "another.existing.setting": "value",
+    "triggerTaskOnSave.tasks": {
+        "Build CMake": ["*.cpp", "*.h", "CMakeLists.txt"]
+    }
+}

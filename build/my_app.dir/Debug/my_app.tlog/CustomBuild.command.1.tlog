@@ -1,0 +1,10 @@
+^D:\SOFTWARE_ENGINEERING_D\MULTITHREADING_CONCURRENCY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Software_Engineering_D/multithreading_concurrency -BD:/Software_Engineering_D/multithreading_concurrency/build --check-stamp-file D:/Software_Engineering_D/multithreading_concurrency/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
